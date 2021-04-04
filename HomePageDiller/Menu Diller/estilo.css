@@ -1,0 +1,131 @@
+ 
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+#tudo{
+    width: 1080px;
+    margin: 0 auto;
+}
+ 
+#conteudo{
+    height: 400px;
+    background: #CCCCFF;
+}
+ 
+#menu{
+    height: 30px;
+	width:1200px;
+}
+ 
+.nav{
+    list-style: none;
+    font: 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+ 
+}
+ 
+.nav li{
+    float: left;
+    position: relative;
+	text-align:center;
+}
+ 
+.nav li a:link,
+.nav li a:visited{
+    display: block;
+    padding: 5px;
+    border-left: 10px #999999 solid;
+    background: #cccccc;
+    text-decoration: none;
+    width: 160px;
+    color: #000000;
+}
+ 
+.nav li:hover a,
+.nav li a:active,
+.nav li a:hover{
+    display: block;
+   padding: 5px;
+    border-left: 10px #ffd200 solid;
+    background: #999999;
+    text-decoration: none;
+    width: 160px;
+    color: #ffd200;
+    font-weight: bold;
+}
+ 
+.submenu{
+    margin:0;
+    list-style:none;
+    display:none;
+    width:146px;
+    position:absolute;
+    top:30px;
+}
+ 
+.nav li:hover .submenu{
+    display:block;
+}
+ 
+.submenu li a:link,
+.submenu li a:visited{
+    display: block;
+    padding: 5px;
+    border-left: 10px #FFD200 solid;
+    background: #cccccc;
+    text-decoration: none;
+    width: 160px;
+    color: #000000;
+}
+ 
+.submenu li:hover a,
+.submenu li a:active,
+.submenu li a:hover{
+    display: block;
+    padding: 5px;
+    border-left: 10px #999999 solid;
+    background: #ffd200;
+    text-decoration: none;
+    width: 120px;
+    color: #000000;
+    font-weight: bold;
+}
+ 
+.submenu-2{
+    margin:0;
+    list-style:none;
+    display:none;
+    width:130px;
+    position:absolute;
+    left: 180px;
+    top: 0;
+}
+ 
+.nav .submenu li:hover .submenu-2{
+    display:block;
+}
+ 
+.submenu-2 li a:link,
+.submenu-2 li a:visited{
+    display: block;
+    padding: 5px;
+    border-left: 10px #FFD200 solid;
+    background: #cccccc;
+    text-decoration: none;
+    width: 120px;
+    color: #000000;
+}
+ 
+.submenu-2 li:hover a,
+.submenu-2 li a:active,
+.submenu-2 li a:hover{
+    display: block;
+    padding: 5px;
+    border-left: 10px #999999 solid;
+    background: #ffd200;
+    text-decoration: none;
+    width: 120px;
+    color: #000000;
+    font-weight: bold;
+}

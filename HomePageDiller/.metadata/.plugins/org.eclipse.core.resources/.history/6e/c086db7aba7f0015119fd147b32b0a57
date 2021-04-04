@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/estilos.css">
+		<title>Página Inicial</title>
+		<meta charset="utf-8">
+		<meta name="copyright" content="Diller Máquinas" />
+		<meta name="description" content="Diller Máquinas - Outsourcing de impressão" />
+		<meta name="keywords" content="outsourcing, impressao, impressora, workflow, reducao de custos, diller, maquinas, consultoria, suprimentos,peças" />
+		<meta name="dc.language" content="pt" />
+		<meta name="rating" content="general" />
+		<meta name="robots" content="index,follow" />
+		<meta name="revisit-after" content="1 days" />
+	</head>
+	<body>
+		<!----------------------------Container principal-------------------------->
+		<div class="container">
+			<!------------------------Barra Ornamental----------------------------->
+			<div id="barra"></div>
+			<!------------------------Cabeçalho e Logo Diller---------------------->
+			<div class="cabecalho">
+				<img src="img/maquinas_home/imghome/redimensionada/logo_diller2.png" alt="Logo_Diller">
+				<h2>Diller Máquinas e Suprimentos</h2>
+			</div>
+			<!-------------------------Menu Principal de Navegação----------------->
+			<div id='cssmenu'>
+				<ul>
+					<li>
+						<a href='#'><span>Home</span></a>
+					</li>
+					<li class='active has-sub'>
+						<a href='#'><span>Produtos</span></a>
+						<ul>
+							<li class='has-sub'>
+								<a href='#'><span>Product 1</span></a>
+								<ul>
+									<li>
+										<a href='#'><span>Sub Product 1.1</span></a>
+									</li>
+									<li class='last'>
+										<a href='#'><span>Sub Product 2.1</span></a>
+									</li>
+								</ul>
+							</li>
+							<li class='has-sub'>
+								<a href='#'><span>Product 2</span></a>
+								<ul>
+									<li>
+										<a href='#'><span>Sub Product 2.1</span></a>
+									</li>
+									<li class='last'>
+										<a href='#'><span>Sub Product 2.2</span></a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href='#'><span>Sobre</span></a>
+					</li>
+					<li class='last'>
+						<a href='#'><span>Contato</span></a>
+					</li>
+				</ul>
+			</div>
+			<!------------------Conteúdo Principal------------------------------------------------------>
+			<div class="corpo">
+				<!------------------Imagens Dinâmicas------------------------------------------------------>
+				<div class="img_index">
+					<div id="comslider_in_point_775120"></div>
+					<script type="text/javascript">
+						var oCOMScript775120 = document.createElement('script');
+						oCOMScript775120.src = "http://commondatastorage.googleapis.com/comslider/target/users/1443272181x4d7fce510b6091521c15f00170cf71aa/comslider.js?timestamp=1443351536";
+						oCOMScript775120.type = 'text/javascript';
+						document.getElementsByTagName("head").item(0).appendChild(oCOMScript775120);
+					</script>
+				</div>
+				<br>
+				<br>
+				<div class="manchete">
+					<br>
+					<h4>OUTSOURCING DE IMPRESSÃO:</h4>
+					<ul>
+						<li>
+							Aumento da Produtividade e Redução dos Custos.
+						</li>
+						<li>
+							Backup Sempre Disponiveis Evitando Máquinas Paradas.
+						</li>
+						<li>
+							Controle e Bilhetagem de Impressão, Cópias e Outros Serviços.
+						</li>
+						<li>
+							Gerenciamento de Contas e Usuários de Serviços.
+						</li>
+						<li>
+							Fluxo de Trabalho Otimizado.
+						</li>
+						<li>
+							Serviços de Digitalização.
+						</li>
+						<li>
+							Equipamentos atualizados com tecnologia de ponta.
+						</li>
+						<li>
+							Alertas de Trocas de Suprimentos.
+						</li>
+						<li>
+							Impressão Segura.
+						</li>
+					</ul>
+				</div>
+				<br>
+				<div class="logo_diversos">
+					<img src="img/logos/kyocera.jpg" alt="Logo_Kyocera">
+					<img src="img/logos/konica.png" alt="Logo_Konica">
+					<img src="img/logos/sharp.png" alt="Logo_Sharp">
+					<img src="img/logos/brother.png" alt="Logo_Brother">
+					<img src="img/logos/fujitsu.jpg" alt="Logo_Fujitsu">
+					<img src="img/logos/papercut.png" alt="Logo_PaperCut">
+					<img src="img/logos/bematech2.jpg" alt="Logo_Bematech">
+					<img src="img/logos/zebra.png" alt="Logo_Zebra">
+					<img src="img/logos/printfleet.png" alt="Logo_Printfleet">
+					<img src="img/logos/oris.png" alt="Logo_Oris">
+				</div>
+			</div>
+			<br>
+			<br>
+
+			<!----------------------Barra Ornamental Rodapé------------------------------->
+			<div id="barra-rodape"></div>
+			<!----------------------Rodapé------------------------------------------------>
+			<div id="rodape">
+				<ul>
+					<li>
+						<a href="#">Assistência Técnica</a>
+					</li>
+					<li>
+						<a href="#">Consultoria</a>
+					</li>
+					<li>
+						<a href="#">Contato</a>
+					</li>
+					<li>
+						<a href="#">Downloads</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#">Notícias</a>
+					</li>
+					<li>
+						<a href="#">Produtos</a>
+					</li>
+					<li>
+						<a href="#">Outsourcing</a>
+					</li>
+					<li>
+						<a href="#">Sobre</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#">Soluções</a>
+					</li>
+					<li>
+						<a href="#">Suprimentos e Peças</a>
+					</li>
+					<li>
+						<a href="#">Localização</a>
+					</li>
+					<li>
+						<a href="#">Parceiros</a>
+					</li>
+				</ul>
+				<div class="icon-redes">
+
+					<ul class="social">
+						<li>
+							<a href="http://facebook.com.br">Facebook</a>
+						</li>
+						<li>
+							<a href="https://twitter.com">Twitter</a>
+						</li>
+						<li>
+							<a href="http://plus.google.com">Google+</a>
+						</li>
+						<li>
+							<a href="http://br.linkedin.com">Linkedin</a>
+						</li>
+					</ul>
+					<p>
+						Entre em contato:<span>(11)2914-3211</span>
+					</p>
+					<p>
+						Acesse:<a href="#">www.dillermaquinas.com.br</a>
+					</p>
+					<p>
+						Todos os Direitos Reservados.
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

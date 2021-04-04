@@ -1,0 +1,1769 @@
+*{
+	margin:0;
+    padding:0;
+    border:0;
+}
+html, body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "Arial Black", sans-serif;
+    background-color: #F5F6CE;   
+    margin:0;
+    padding:0;
+    border:0;
+    height:100%;
+}
+#tudo{
+    width:1280px;
+	margin:auto;
+	background-color: #F5F6CE;   
+}
+header{
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+/*********************CABEÇALHO*******************/
+
+.cabecalho {
+    height:79px;
+    width:1340px;
+    padding:0;
+}
+	
+.logo-diller{
+    margin:3px 0 2px 20px;
+    padding-bottom: 2px;
+    padding-top:0;
+	float:left;
+}
+.cabecalho h1 {
+    margin:15px 10px 15px 150px;
+    font-family: Berlin Sans FB Demi;
+    font-size: 26px;
+    color: #0000CD;
+    padding-bottom: 2px;
+	float:left;
+}
+.cabecalho label{
+    text-align: right;
+}
+/**********************FIM CABEÇALHO************************/
+/**********************BUSCA************************/
+#busca_topo{
+	float:right;
+	margin:30px 3px 0 0;
+	height:30px;
+}	
+#busca_topo input[type=text]{
+	height:25px;
+	width:210px;
+	border:1px #020EAA solid;
+	/*background-image:url(../img/busca.png);
+	background-repeat:no-repeat;
+	background-position:center right;*/
+}
+#busca_topo input[type=submit]{
+	font-size:13px;
+	font-weight:bold;
+	padding:5px 5px 5px 5px;
+	cursor:pointer;
+	border:2px #020EAA solid;
+	margin:0 0 5px 68px;
+}
+/**********************FIM BUSCA************************/
+/**********************BARRA LATERAL************************/
+
+#sidebar{
+    width:210px;
+	height:452px;
+    float:right;
+    margin: 0 0 0 0;
+}
+#pesquisa{
+    margin:2px 0 0 0;
+    text-align:center;
+    padding:5px 0 16px 0;
+    background:#700505;	
+}
+#pesquisa input[type=submit]{
+    margin:15px 0 0 0;
+	font-size:15px;
+    cursor:pointer;	
+	font-weight:600;
+	padding:2px;
+	color:#0E047F;
+}
+#pesquisa input[type=submit]:hover{
+   background:#B3ABF2;
+}
+#pesquisa input[type=text]{
+    width:180px;
+    margin:18px 0 0 0;
+    cursor:pointer;	
+}
+#pesquisa input[type=text]:hover{
+    background:#B3ABF2;
+}
+
+#arestrita{
+    margin:7px 0 0 0;
+    text-align:center;
+    padding:5px 0 12px 0;
+    background:#700505;
+}
+#arestrita p{
+    color:#ffffff;
+    font-family:"Segoe UI",Times New Roman;
+    font-weight:400;
+	margin:6px 0 0 0;
+}
+#arestrita label{
+    margin:0 0 0 0;
+    color:yellow;
+    font-family: "Segoe UI",Times New Roman;
+}
+#arestrita input[type=text]{
+    width:180px;
+    margin:0 0 0 0;
+	cursor:pointer;
+	height:22px;
+}
+#arestrita input[type=text]:hover{
+   background:#B3ABF2;	
+}	
+
+#arestrita input[type=password]{
+    width:180px;
+    margin:0 0 0 0;
+    cursor:pointer;
+	height:22px;	
+}
+#arestrita input[type=password]:hover{
+   background:#B3ABF2;	
+}
+#arestrita input[type=submit]{
+    margin:9px 0 0 0;
+	font-size:15px;
+    cursor:pointer;	
+	font-weight:bold;
+	padding:2px 3px 2px 3px;
+	color:#0E047F;
+}
+#arestrita input[type=submit]:hover{
+   background:#B3ABF2;	
+}
+#btn_downloads{
+	width:208px;
+    margin:7px 0 0 0;
+    border:1px #B3ABF2 solid;
+    background:#700505;
+	height:36px;	
+}
+
+#btn_downloads:hover{
+	border:1px #ffffff solid; 
+}
+
+#btn_downloads span a{
+    color:#ffffff;
+    font-family: "Segoe UI",Times New Roman;
+    font-weight:600;
+    text-decoration:none;
+	margin-left:67px;
+	margin-top:6px;
+    float:left;	
+}  
+#btn_novidades{
+	width:208px;
+    margin:3px 0 0 0;
+    border:1px #B3ABF2 solid;
+    background:#700505;
+	height:36px;	
+}
+#btn_novidades span{
+    text-align:center;
+}
+#btn_novidades:hover{
+	border:1px #ffffff solid; 
+}
+#btn_novidades span a{
+    color:#ffffff;
+    font-family: "Segoe UI",Times New Roman;
+    font-weight:600;
+    text-decoration:none;
+	margin-left:78px;
+	margin-top:6px;	
+	float:left;
+}
+#btn_consultoria{
+    margin:3px 0 0 0;
+    border:1px #B3ABF2 solid;
+    background:#700505;
+	height:36px;	
+}
+#btn_consultoria span a{
+    color:#ffffff;
+    font-family:"Segoe UI", Times New Roman;
+    font-weight:600;
+    text-decoration:none;
+	margin-left:65px;
+	margin-top:6px;
+	float:left;
+}
+#btn_consultoria:hover{   
+    border:1px #ffffff solid; 
+}
+#btn_servicos{
+    margin:3px 0 0 0;
+    border:1px #B3ABF2 solid;
+    background:#700505;
+	height:36px;	
+}
+#btn_servicos span a{
+    color:#ffffff;
+    font-family:"Segoe UI", Times New Roman;
+    font-weight:600;
+    text-decoration:none;
+	margin-left:78px;
+	margin-top:6px;
+	float:left;
+}
+#btn_servicos:hover{   
+    border:1px #ffffff solid; 
+}
+/**********************FIM BARRA LATERAL************************/
+
+/********************MENU PRINCIPAL********************************************************/
+#menu{
+    height: 46px;
+	width:100%;
+	clear:both;
+	background:#ffffff;
+}
+ 
+.nav{
+    list-style: none;
+    font: 14px "Sitka Banner",Trebuchet MS, Arial, Helvetica, sans-serif;
+	margin-left:130px;
+	padding-top:8px;
+	padding-bottom:0px;
+}
+ 
+.nav li{
+    float: left;
+    position: relative;
+	text-align:center;
+	
+}
+
+.nav li a:link,
+.nav li a:visited{
+    display: block;
+    padding: 7px;
+    box-shadow: 1px 1px 4px #999999;
+    background: #EEECEC;
+    text-decoration: none;
+    width: 160px;
+    color: #000000;
+}
+ 
+.nav li:hover a,
+.nav li a:active,
+.nav li a:hover{
+    display: block;
+    padding: 7px;
+    background: #999999;
+    text-decoration: none;
+    width: 160px;
+    color: #27027E;
+    font-weight: bold;
+}
+ 
+.submenu{
+    margin:0;
+    list-style:none;
+    display:none;
+    width:150px;
+    position:absolute;
+    top:30px;
+	font: 11px "Sitka Text",Trebuchet MS, Arial, Helvetica, sans-serif;
+}
+ 
+.nav li:hover .submenu{
+    display:block;
+}
+ 
+.submenu li a:link,
+.submenu li a:visited{
+    display: block;
+    padding: 6px;
+    border-left: 7px #FFD200 solid;
+    background: #cccccc;
+    text-decoration: none;
+    width: 153px;
+    color: #000000;
+}
+ 
+.submenu li:hover a,
+.submenu li a:active,
+.submenu li a:hover{
+    display: block;
+    padding: 6px;
+    border-left: 7px #999999 solid;
+    background: #ffd200;
+    text-decoration: none;
+    width: 153px;
+    color: #000000;
+    font-weight: bold;
+}
+ 
+.submenu-2{
+    margin:0;
+    list-style:none;
+    display:none;
+    width:130px;
+    position:absolute;
+    left: 180px;
+    top: 0;
+}
+ 
+.nav .submenu li:hover .submenu-2{
+    display:block;
+}
+ 
+.submenu-2 li a:link,
+.submenu-2 li a:visited{
+    display: block;
+    padding: 5px;
+    border-left: 10px #FFD200 solid;
+    background: #cccccc;
+    text-decoration: none;
+    width: 153px;
+    color: #000000;
+}
+ 
+.submenu-2 li:hover a,
+.submenu-2 li a:active,
+.submenu-2 li a:hover{
+    display: block;
+    padding: 5px;
+    border-left: 10px #999999 solid;
+    background: #ffd200;
+    text-decoration: none;
+    width: 153px;
+    color: #000000;
+    font-weight: bold;
+}
+/**********************FIM MENU PRINCIPAL************************/
+
+/**********************HOME PAGE************************/
+#container{
+	width:1280px;
+	height:auto;
+	margin:auto;
+	
+}
+#topo{
+	width:1280px;
+	margin:auto;
+}
+.site{
+    background: #ede9da;
+	margin: auto;
+    padding:0;
+    border:0;
+	width:1280px;	
+}
+#conteudo{
+    background-color:#F5F6CE;
+    float:left;
+    margin:auto;
+	width:1280px;	
+}
+#conteudo_miolo{
+	width:1068px;
+	float:left;
+	margin-top:15px;
+}
+#sidebar_home{
+	width:210px;
+	height:460px;   
+    float:right;
+    margin:17px 0px 0 0;	
+}
+#slider-1{
+    width:1020px;
+    height:230px;
+    margin:30px 0 30px 0;
+    background-image:url(../img/kyocera_banner.png);
+	box-shadow:2px 2px 4px #c0c0c0;		
+}
+#chamadas{
+    margin:7px 0 10px 0;
+	width:1020px;
+	box-shadow:2px 2px 4px #c0c0c0;
+	background:#ffffff;	
+}
+#textos_chamadas{
+	margin:0 40px 0 40px;
+	padding:5px 0 20px 0;
+}
+#textos_chamadas a{
+	text-decoration:none;
+}
+#chamadas h1{
+	font-family:Sitka Text;
+    font-size:16px;
+    margin:4px 0 0 0;
+	 color:#08018E;
+	font-weight:bold;
+	padding-top:5px;
+	padding-bottom:5px;
+	background:#F2F2F2;
+}
+#chamadas p {
+	font-family: "Segoe UI",Bookman Old Style;
+    font-size:15px;
+    margin:0 0 0 0;
+	text-align:justify;
+	font-weight:600;
+	color:#6E6C6C;
+}
+/***************Estilo Outros Logos de Servicos*************/
+#logotipos_diversos{
+	background-color:#F5F6CE;
+    float:left;  
+    margin: 0 0 10px 0;
+	width:1280px;
+	height:276px;	
+}
+#logos_autorizadas {
+    width: 520px;
+    float:left;
+    margin: 2px 96px 0 0;
+	height:270px;	
+	clear:both;
+	box-shadow:2px 2px 4px #c0c0c0;
+	background:#FFFFFF;
+}
+#logos_autorizadas label{
+    margin-left:180px;
+    color:#1D198E;
+    font-size:20px;
+    font-family: Segoe UI;
+    font-weight:bold;	
+}
+#logos_diversos {
+    width: 662px;
+    background:#FFFFFF;
+	box-shadow:2px 2px 4px #c0c0c0;
+    float:left;
+    margin: 2px 2px 2px 0;
+	height:269px;
+	position:relative;
+}
+#logos_diversos label {
+    margin-left:10px;
+    color:#1D198E;
+    font-size:20px;
+    font-family:Segoe UI;
+    font-weight:bold;
+}
+#img_divers{
+    text-align:center;
+}
+#img_divers img{
+    margin-right:60px;
+
+}
+.miniatura-kyocera{
+	margin:20px 0 0 84px;
+	
+}
+.miniatura-brother{
+	margin:140px 12px 0 25px;
+	float:right;
+	padding-bottom:18px;
+	padding-right:15px;
+}
+.miniatura-konica{
+	margin:120px 0 0 12px;
+	float:left;
+	padding-bottom:23px;
+}
+
+/**********************FIM HOME************************/
+
+/*************************OUTSOURCING*************/
+
+#sidebaroutsourcing{
+	width:210px; 
+    float:right;
+    margin:44px 25px 0 0;
+	background-color: #F5F6CE;   
+}
+
+.cab-ots{
+	width:300px;
+    height:34px;
+    text-align:center; 
+    font-weight:600;
+	color:#020641;
+    font-family: "Sitka Banner",Times New Roman;
+    font-size:20px;
+    background:#FFFFFF;
+    border:0;
+	margin:auto;
+	padding-top:15px;
+}
+.containerout{
+   float:left;
+    height:auto;
+    padding-bottom:15px;
+	
+}
+.containerout img {
+    margin-left:190px;
+    margin-top:10px;
+}
+.containerout h3 {
+    text-align:center;
+    color:#4B0082;
+    font-family:"Segoe UI", Times New Roman;
+}
+.containerout p {
+    text-align:justify;
+    color:#545454;
+    font-family:"Segoe UI", Times New Roman;
+    font-size:14px;
+    margin-left:80px;
+    margin-right:80px;	
+}
+#texto1 {
+    margin:0 0 15px 40px;
+	width:940px;
+	height:274px;
+	box-shadow:2px 2px 4px #c0c0c0;
+	background:#FFFFFF;
+}
+#texto1 p{
+    font-family:"Segoe UI", Bookman Old Style, Times New Roman;
+	font-weight:600;
+	font-size:13px;
+	margin:20px 25px 0 25px;
+}
+#texto1 h3{
+    font-family:"Segoe UI", Bookman Old Style, Times New Roman;
+	margin:0 0 0 0;
+	padding-top:25px;
+	color:#4B0082;
+}
+#vantagens{
+    background-color:#F5F6CE;
+    margin:10px 0 0 40px;
+	width:940px;
+	height:470px;
+	box-shadow:3px 3px 5px #c0c0c0;
+	background:#FFFFFF;
+}
+#vantagens  figure {
+    float:right;
+}
+#vantagens  figure img {
+    width:auto;
+	margin-right:35px;
+}
+
+#vantagens h3 {
+    font-family: "Segoe UI",Times New Roman;
+    color:#4B0082;
+    margin:10px 40px 20px 40px;
+	padding-top:25px;
+	padding-bottom:15px;
+}
+#vantagens ul {
+    font-family: "Segoe UI",Times New Roman;
+    margin-left:40px;
+}
+#vantagens li {
+    font-family:"Segoe UI", Arial;
+    color:#545454;
+    margin-left:40px;
+	font-weight:600;
+	font-size:14px;
+}
+
+#vantagens h5 {
+    text-align:center;
+}
+#vantagens h4 {
+    font-family:"Segoe UI", Times New Roman;
+    color:#4B0082;
+    margin-left:80px;
+    margin-right:80px;
+    text-align:justify;
+	
+}
+/**********************FIM OUTSOURCING************************/
+
+/***************QUEM SOMOS*************/
+#tudo_quemsomos{
+    width:1280px;
+	margin:auto;
+}
+.containerquemsomos{
+    width:1030px;
+    margin:0 0 0 0;
+    padding-bottom:20px; 
+	float:left;	
+}
+.cab-quemsomos{
+    width:300px;
+    height:36px;
+    text-align:center; 
+    margin-top:7px;
+    font-weight:600;
+	color:#020641;
+    font-family: "Sitka Banner",Times New Roman;
+    font-size:20px;
+    background:#FFFFFF;
+    border:0;
+	margin:auto;
+	padding-top:15px;
+}
+#conteudoquemsomos{
+	background:#FFFFFF;
+	box-shadow:4px 4px 6px #c0c0c0;
+	padding:15px 0 15px 0;
+}
+#sidebar_quemsomos{
+	float:right;color:#020EAA;	
+	width:210px;
+	margin:46px 0 0 0;
+}
+#busca_quemsomos{
+	float:right;
+	margin:30px 3px 0 0;
+	height:30px;
+}
+#busca_quemsomos input[type=text]{
+	height:26px;
+	width:210px;
+	border:1px #020EAA solid;
+	background-image:url(../img/busca.png);
+	background-repeat:no-repeat;
+	background-position:center right;
+}
+#busca_quemsomos input[type=submit]{
+	font-size:13px;
+	font-weight:bold;
+	padding:5px 5px 5px 5px;
+	cursor:pointer;
+	border:2px #020EAA solid;
+	margin:0 0 5px 80px;
+}	
+
+#historia {
+    margin:0 30px 0 30px;
+    background-color:#FFFFFF;
+}
+#historia h2 {
+    text-align: center;
+    color:#313030;
+    font-family:"Sitka Display", Times New Roman;
+	margin:20px 0 0 0;
+}
+#historia h3 {
+    text-align: center;
+    color:#4B0082;
+    font-family:"Segoe UI", Times New Roman;
+}
+#historia p {
+    text-align: justify;
+    padding-top: 0;
+    font-family: "Segoe UI",Arial Black;
+    font-size: 15px;
+    color: #545454;
+    margin:0 0 0 10px;
+	font-weight:600;
+}
+#historia img {
+    width: 260px;
+    height: 300px;
+    float: left;
+    margin:0 5px 0 10px;   
+    border:6px solid #FFFFFF;
+}
+.historia2 {
+    margin:0 30px 0 0;
+	background-color:#FFFFFF;
+}
+.historia2 h2 {
+    text-align: center;
+    color:#4B0082;
+    font-family:"Segoe UI", Times New Roman;
+}
+.historia2 h3 {
+    text-align: center;
+    color:#4B0082;
+    font-family:"Segoe UI", Times New Roman;
+}
+.historia2 p {
+    font-family:"Segoe UI";
+    font-size: 15px;
+    color: #545454;
+    text-align:justify;
+	margin:0 0 0 30px;
+	font-weight:600;
+}
+.historia2 img {
+    width: 290px;
+    height: 280px;
+    float: right;
+    margin-left:22px;
+    margin-top: -80px;
+    margin-right: 25px;
+    margin-bottom:3px;
+    border:5px solid #FFFFFF;
+}
+/***************FIM QUEM SOMOS*************/
+
+/***************ONDE ESTAMOS*************/
+.containerondeestamos{
+    width:1020px;
+    height:596px;
+    margin-left:0;
+    margin-right:0;
+    background-color: #F5F6CE;
+    padding-bottom:auto;
+	float:left;
+}
+.cab-ondeestamos{
+    width:300px;
+    height:36px;
+    text-align:center; 
+    margin-top:7px;
+    font-weight:600;
+	color:#020641;
+    font-family: "Sitka Banner",Times New Roman;
+    font-size:20px;
+    background:#FFFFFF;
+    border:0;
+	margin:auto;
+	padding-top:15px;
+}
+#sidebar_ondeestamos{
+	width:210px;
+	height:566px;   
+    float:right;
+    margin:46px 50px 0 0;
+}
+.mapa {
+    margin-left:80px;
+    margin-right:60px;
+    text-align:center;
+    box-shadow:4px 4px 6px #c0c0c0;
+	background:#FFFFFF;
+    margin-top:0;
+    margin-bottom:15px;
+	padding-bottom:15px;
+	padding-top:13px;
+}
+#parag1{  
+    color:#4B0082;
+    font-size: 14px;
+    font-family: Bookman Old Style;
+    margin-left:80px;
+    margin-right:80px;
+    text-align:center;
+    font-weight: 400;
+}
+.mapa h2{
+    text-align:center;
+    color:#4B0082;
+    font-family: Sitka Banner, Times New Roman;
+}
+#parag2{
+    text-align: center;
+    color:#4B0082;
+    font-size: 12px;
+    font-family: Bookman Old Style;
+}
+/*************** FIM ONDE ESTAMOS*************/
+
+/***************FALE CONOSCO*************/
+.containerfaleconosco{
+    width:1020px;	
+    margin:0 auto 0;
+    background-color: #F5F6CE;   
+    padding-bottom:0;
+	float:left;	
+}
+.cab-faleconosco{
+    width:300px;
+    height:36px;
+    text-align:center; 
+    margin-top:7px;
+    font-weight:600;
+	color:#020641;
+    font-family: "Sitka Banner",Times New Roman;
+    font-size:20px;
+    background:#FFFFFF;
+    border:0;
+	margin:auto;
+	padding-top:15px;
+}
+#sidebar_faleconosco{
+	width:210px;
+	height:740px;   
+    float:right;
+    margin:48px 50px 0 0;	
+}
+
+.faleconosco{
+    width: 700px;
+	margin:0 0 20px 20px;
+	float:left;
+	box-shadow:4px 4px 6px #c0c0c0;
+	background:#FFFFFF;
+	padding-top:15px;
+}
+.faleconosco img {
+	margin:10px 0 10px 190px ;
+}
+.faleconosco p{
+    font-size: 14px;
+    color:#08018E;
+    height:auto;
+    font-weight: 500;
+	margin:0 10px 0 10px;
+	font-family: Sitka Text;
+	padding-bottom:20px;
+	text-align:center;
+}
+.faleconosco h2{
+    color:#4B0082;
+    font-family: Times New Roman;
+    font-weight: bold;
+}
+.faleconosco h3 {
+    padding-top:30px;
+    color:#4B0082;
+    font-family: Times New Roman;
+}
+.faleconosco_form {
+    width: 790px;  
+    float:left;
+    margin-left:130px;
+    margin-right:0;
+    margin-bottom:0;
+}
+.faleconosco_form h6 {
+    text-align:center;
+    color:#4B0082;
+}
+
+#formulariocontato{
+	margin:0 0 0 0;
+}
+#form-contato {
+    height:340px;
+    font-size:11px;   
+    margin:15px 0 0 0;
+}
+#form-contato input[type=text] {
+    margin-left:40px;
+    margin-right:0;
+    padding:4px;
+	background-color:#D8D8D8;
+}
+#form-contato input[type=submit] {
+    margin-left:180px;
+    margin-right:0;
+    padding:4px;
+	background-color:#D8D8D8;
+}
+#form-contato input[type=reset] {
+    margin-left:140px;
+    margin-right:0;
+    padding:4px;
+	background-color:#D8D8D8;
+}
+#form-contato label {
+    font-size:14px;
+    color:#4B0082;
+	margin:0 0 0 40px;
+}
+#form-contato textarea{
+    background-color:#D8D8D8;
+	margin:0 0 0 40px;
+}
+/***************FIM FALE CONOSCO*************/
+/***************CONSULTORIA*************/
+#container-consult{
+    width:1020px;   
+    margin:auto;
+    background-color:#F5F6CE;   
+    padding-bottom:30px;
+	float:left;
+}
+
+#cab-consult{
+    width:300px;
+    height:36px;
+    text-align:center; 
+    margin-top:7px;
+    font-weight:600;
+	color:#020641;
+    font-family: "Sitka Banner",Times New Roman;
+    font-size:20px;
+    background:#FFFFFF;
+    border:0;
+	margin:auto;
+	padding-top:15px;
+}
+#sidebar_consult{
+	width:210px; 
+    float:right;
+    margin:45px 30px 0 0;
+}
+#botoes_internas_consultoria {
+    float:left;
+    display:inline;
+    margin:0;
+    padding:0;
+    width:331px;
+    height:44px;
+    background-image:url(images/bg_subtitulos_interna.jpg);
+    text-align:right;
+    line-height:44px;
+}
+
+#chamadas_consultoria_total {
+    margin:0 auto 0 auto;
+    padding-bottom:20px;
+	padding-left:30px;
+    width:660px;
+	box-shadow:2px 2px 4px #c0c0c0;
+	background:#FFFFFF;
+}
+
+#chamadas_consultoria {
+    float:left;
+    display:inline;
+    margin:0;
+    padding:0;
+    width:660px;	
+}
+
+#chamadas_consultoria img {
+    margin:20px 0 0 0;
+    padding:0;
+}
+
+#chamadas_consultoria h2 {
+    margin:0;
+    padding:20px 0 35px 0;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size:15px;
+    color:#414042;
+    font-weight: normal;	
+}
+
+#chamadas_consultoria h1 {
+    margin:0;
+    padding:25px 0 5px 0;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size:20px;
+    color:#a7a37e;	
+    font-weight: normal;	
+}
+
+#chamadas_consultoria p {
+    margin:0;
+    padding:0;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size:12px;
+    color:#414042;	
+}
+
+#chamadas_consultoria a {
+    float:left;
+    margin:0;
+    padding:0;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size:15px;
+    color:#b11116;
+    text-decoration: none;
+    height:20px;
+    line-height:20px;
+}
+
+#chamadas_consultoria a:hover {
+    color:#256b84;
+}
+
+#linha_divisao_consultoria {
+    float:left;
+    display:inline;
+    margin:0;
+    padding:0;
+}
+
+#formulario_consultoria {
+    margin:0;
+    padding-bottom:auto;
+}
+
+#formulario_consultoria h2 {
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size:15px;
+    color:#256b84;
+    margin:0;
+    padding:0;
+    font-weight: normal;
+}
+
+#formulario_consultoria p {
+    margin:0;
+    padding:0;
+}
+
+#formulario_consultoria h3 {
+    float:left;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size:12px;
+    color:#fff;
+    background-color:#256b84;
+    height:25px;
+    line-height:25px;
+    margin:20px 0;
+    width:589px;
+    padding:0 0 0 10px;
+    font-weight: normal;
+}
+
+.newsletter {
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size:12px;
+    color:#414042;
+    line-height:18px;
+    line-height:20px;	
+    width:492px;
+    padding:0;
+    padding:0;
+}
+
+.botao_enviar_consultoria {
+    float:left;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size:15px;
+    color:#fffde9;
+    background-color:#b11116;
+    height:25px;
+    line-height:25px;
+    width:72px;
+    font-weight: normal;
+    border-style: none;
+}
+
+.campo_formulario_consultoria_01 {
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size:12px;
+    color:#414042;
+    margin:0;
+    padding:0 10px;
+    width:579px;
+    height:25px;
+    background-color: #ededc9;
+    border-style: none;
+    line-height:25px;
+}
+
+.campo_formulario_consultoria_02 {
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size:12px;
+    color:#414042;
+    margin:0;
+    padding:0 10px;
+    width:260px;
+    height:25px;
+    background-color: #ededc9;
+    border-style: none;
+    line-height:25px;
+}
+
+.campo_formulario_consultoria_03 {
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size:12px;
+    color:#414042;
+    margin:0;
+    padding:5px 10px;
+    width:579px;
+    height:80px;
+    background-color: #ededc9;
+    border-style: none;
+    overflow-x:hidden;
+}
+
+.campo_formulario_consultoria_04 {
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size:12px;
+    color:#414042;
+    margin:0;
+    margin:3px 0 0 0;
+    padding:0 0 0 10px;
+    width:280px;
+    height:25px;
+    background-color: #ededc9;
+    line-height:25px;
+    border: 3px solid #ededc9;
+}
+
+.campo_formulario_consultoria_05 {
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size:12px;
+    color:#414042;
+    margin:0;
+    margin:3px 0 0 0;
+    padding:0 0 0 10px;
+    width:599px;
+    height:25px;
+    background-color: #ededc9;
+    line-height:25px;
+    border: 3px solid #ededc9;
+}
+/************* FIM PÁGINA CONSULTORIA */
+
+/***************DOWNLOADS*************/
+.container_downloads{
+    width:1020px;
+    margin:0 0 0 0;
+    background-color: #F5F6CE;
+    padding-bottom:20px;
+	float:left;
+	padding:15px 0 15px 0;
+}
+.cab-downloads{
+    width:300px;
+    height:36px;
+    text-align:center; 
+    margin-top:10px;
+    font-weight:600;
+	color:#020641;
+    font-family: "Sitka Banner",Times New Roman;
+    font-size:20px;
+    background:#FF3F5D9;
+    border:0;
+	margin:auto;
+	padding-top:8px;
+}
+.conteudo_downloads{
+	background:#F3F5D9;
+	box-shadow:4px 4px 6px #c0c0c0;
+	color:#020641;
+}
+.conteudo_downloads h3{
+	text-align:center;
+	font-family: "Sitka Banner",Times New Roman;
+}
+
+.img_downloads{
+	margin-top:20px;
+}
+.img_downloads img{
+	border:2px #A9A9F5 solid; 
+}
+.img_downloads img:hover{
+	border:3px #FA8258 solid; 
+}
+#sidebar_downloads{
+	width:210px;
+	height:566px;   
+    float:right;
+    margin-top:56px;
+}
+/*************** FIM DOWNLOADS*************/
+/***************PRODUTOS*************/
+.container_produtos{
+    width:1020px;
+    margin:0 0 0 0;
+    background-color: #F5F6CE;
+    padding-bottom:20px;
+	float:left;
+}
+.cab-produtos{
+    width:300px;
+    height:36px;
+    text-align:center; 
+    margin-top:10px;
+    font-weight:600;
+	color:#020641;
+    font-family: "Sitka Banner",Times New Roman;
+    font-size:20px;
+    background:#FFFFFF;
+    border:0;
+	margin:auto;
+	padding-top:8px;
+}
+#conteudo_produtos{
+	background:#FFFFFF;
+	box-shadow:4px 4px 6px #c0c0c0;
+	padding:15px 0 15px 0;
+}
+
+.produtos_kyocera li{
+	margin:5px 5px 5px 35px;	
+	display: inline-block;
+	vertical-align: bottom;
+	padding-bottom: 10px; 
+}
+.produtos_kyocera a {
+	color: #333;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+}
+.produtos_kyocera img{
+	box-shadow: 1px 1px 3px #F8F7F7;
+}
+.produtos_kyocera figcaption{
+	padding-top:7px;
+}
+
+.produtos_kyocera_2 li{
+	margin:5px 0 5px 60px;	
+	display: inline-block;
+	vertical-align: bottom;
+	padding-bottom: 10px; 
+}
+.produtos_kyocera_2 a {
+	color: #333;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+}
+.produtos_kyocera_2 img{
+	box-shadow: 1px 1px 3px #F8F7F7;
+}
+.produtos_kyocera_2 figcaption{
+	padding-top:7px;
+}
+
+.produtos_kyocera_3 li{
+	margin:5px 0 5px 58px;	
+	display: inline-block;
+	vertical-align: bottom;
+	padding-bottom: 10px; 
+}
+.produtos_kyocera_3 a {
+	color: #333;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+}
+.produtos_kyocera_3 img{
+	box-shadow: 1px 1px 3px #F8F7F7;
+}
+.produtos_kyocera_3 figcaption{
+	padding-top:7px;
+}
+
+.produtos_konica_1 li{
+	margin:5px 0 5px 124px;	
+	display: inline-block;
+	vertical-align: bottom;
+	padding-bottom: 10px; 
+}
+.produtos_konica_1 a {
+	color: #333;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+}
+.produtos_konica_1 img{
+	box-shadow: 1px 1px 3px #F8F7F7;
+}
+.produtos_konica_1 figcaption{
+	padding-top:7px;
+}
+
+.produtos_brother{
+	margin-left:65px;
+}
+.produtos_brother li{
+	margin:5px 25px 5px 15px;
+
+	display: inline-block;
+	vertical-align: bottom;
+	padding-bottom: 10px; 
+}
+.produtos_brother a {
+	color: #333;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+}
+.produtos_brother img{
+	box-shadow: 1px 1px 3px #F8F7F7;
+}
+.produtos_brother figcaption{
+	padding-top:7px;
+}
+
+.chamada_produtos{
+	margin:5px 15px 5px 15px;
+	border:1px #EBEBEB solid;
+}
+	
+.chamada_produtos h3{
+	margin-left:10px;
+	padding-top:10px;
+	font-size:14px;
+	font-family:"Segoe UI", "Lucida Grande", sans-serif;
+}
+#nome_sharp{
+	background-image:url(img/nome_sharp.png);
+}
+.chamada_produtos img{
+	box-shadow: 1px 1px 3px #F8F7F7;
+	cursor:pointer;
+	margin:0 31px 7px 31px;
+	display:inline;
+}
+#sidebar_produtos{
+	width:210px;
+	height:566px;   
+    float:right;
+    margin:40px 0 0 0;
+}
+/*************** FIM PRODUTOS*************/
+/***************SOLUÇÕES*************/
+.container_solucoes{
+    width:1020px;
+    margin:0 0 0 0;
+    background-color: #F5F6CE;
+    padding-bottom:20px;
+	float:left;
+}
+.cab-solucoes{
+    width:300px;
+    height:36px;
+    text-align:center; 
+    margin-top:10px;
+    font-weight:600;
+	color:#020641;
+    font-family: "Sitka Banner",Times New Roman;
+    font-size:20px;
+    background:#FFFFFF;
+    border:0;
+	margin:auto;
+	padding-top:8px;
+}
+#conteudo_solucoes{
+	background:#FFFFFF;
+	box-shadow:4px 4px 6px #c0c0c0;
+	padding:15px 0 20px 0;
+	margin:auto;
+}
+#conteudo_solucoes h2{
+	text-align:center;
+	padding:0 0 20px 0;
+	font-family:"Segoe UI", Lucida Sans;
+	color:#171B66;
+}
+#conteudo_solucoes h3{
+	text-align:center;
+	padding:0 0 20px;
+    font-family:"Sitka Text", Lucida Sans;	
+	color:#4C4D64;
+	font-size:14px;
+}
+#conteudo_solucoes ul li{
+	margin-left:30px;
+}
+#conteudo_solucoes ul{
+	margin:0 0 0 140px;	
+	padding-bottom:30px;	
+}
+#conteudo_solucoes ul li h4{
+	font-family:"Sitka Text", Lucida Sans;	
+	color:#171B66;
+	font-size:15px;
+}
+#conteudo_solucoes ul li h5{
+	font-family:"Sitka Text", Lucida Sans;	
+	color:#4C4D64;
+	font-size:14px;
+}
+
+#sidebar_solucoes{
+	width:210px;
+	height:566px;   
+    float:right;
+    margin:39px 0 0 0;
+}
+/*************** FIM SOLUÇÕES*************/
+/***************NOTÍCIAS*************/
+.container_noticias{
+   width:1020px;
+    height:596px;
+    margin:0 0 0 0;
+    background-color: #F5F6CE;
+    padding-bottom:auto;
+	float:left;
+	border-left:1px #c0c0c0 solid;
+	border-right:1px #c0c0c0 solid;
+	border-bottom:1px #c0c0c0 solid;
+}
+.cab-noticias{
+    width:300px;
+    height:36px;
+    text-align:center; 
+    margin-top:10px;
+    font-weight:600;
+	color:#020641;
+    font-family: "Sitka Banner",Times New Roman;
+    font-size:20px;
+    background:#FFFFFF;
+    border:0;
+	margin:auto;
+	padding-top:8px;
+}
+#conteudo_noticias{
+	background:#FFFFFF;
+	box-shadow:4px 4px 6px #c0c0c0;
+	padding:15px 0 15px 0;
+}
+#sidebar_noticias{
+	width:210px;
+	height:566px;   
+    float:right;
+    margin:45px 0 0 0;
+}
+/*************** FIM NOTÍCIAS*************************/
+
+/***************GED*************/
+.container_ged{
+   width:1020px;
+    margin:0 0 0 0;
+    background-color: #F5F6CE;
+    padding-bottom:20px;
+	float:left;
+}
+.cab-ged{
+    width:300px;
+    height:36px;
+    text-align:center; 
+    margin-top:10px;
+    font-weight:600;
+	color:#020641;
+    font-family: "Sitka Banner",Times New Roman;
+    font-size:20px;
+    background:#FFFFFF;
+    border:0;
+	margin:auto;
+	padding-top:8px;
+}
+#conteudo_ged{
+	background:#FFFFFF;
+	box-shadow:4px 4px 6px #c0c0c0;
+	padding:15px 0 15px 0;
+
+}
+#conteudo_ged h3{
+	margin:0 80px 0 110px;
+	text-align:left;
+	padding:0 0 20px 0;
+	font-family:"Segoe UI", Lucida Sans;
+	color:#171B66;
+	font-size:14px;
+}
+#conteudo_ged p{
+	margin:0 120px 0 120px;
+	text-align:justify;
+	padding:0 0 20px 0;
+	font-family:"Segoe UI", Lucida Sans;
+	color:#171B66;
+	font-size:13px;
+}
+#conteudo_ged ul{
+	margin:0 0 20px 135px;
+}
+#conteudo_ged ul li{	
+	font-family:"Segoe UI", Lucida Sans;
+	color:#171B66;
+	font-size:13px;
+}
+#conteudo_ged img{
+	margin:10px 0 35px 230px;
+	box-shadow:1px 1px 4px #c0c0c0;
+}
+
+#sidebar_ged{
+	width:210px;
+	height:566px;   
+    float:right;
+    margin:45px 0 0 0;
+}
+/*************** FIM GED*************************/
+
+/***************OUTROS*************/
+.container_outros{
+   width:1020px;
+    height:596px;
+    margin:0 0 0 0;
+    background-color: #F5F6CE;
+    padding-bottom:auto;
+	float:left;
+	border-left:1px #c0c0c0 solid;
+	border-right:1px #c0c0c0 solid;
+	border-bottom:1px #c0c0c0 solid;
+}
+.cab-outros{
+    width:300px;
+    height:36px;
+    text-align:center; 
+    margin-top:10px;
+    font-weight:600;
+	color:#020641;
+    font-family: "Sitka Banner",Times New Roman;
+    font-size:20px;
+    background:#FFFFFF;
+    border:0;
+	margin:auto;
+	padding-top:8px;
+}
+#conteudo_outros{
+	background:#FFFFFF;
+	box-shadow:4px 4px 6px #c0c0c0;
+	padding:15px 0 15px 0;
+}
+#sidebar_outros{
+	width:210px;
+	height:566px;   
+    float:right;
+    margin:45px 0 0 0;
+}
+/*************** FIM OUTROS*************************/
+
+/***************GERENCIAMENTO DE IMPRESSÃO*************/
+.container_gerenc_impressao{
+   width:1020px;
+    height:596px;
+    margin:0 0 0 0;
+    background-color: #F5F6CE;
+    padding-bottom:auto;
+	float:left;
+	border-left:1px #c0c0c0 solid;
+	border-right:1px #c0c0c0 solid;
+	border-bottom:1px #c0c0c0 solid;
+}
+.cab-gerenc_impressao{
+    width:300px;
+    height:36px;
+    text-align:center; 
+    margin-top:10px;
+    font-weight:600;
+	color:#020641;
+    font-family: "Sitka Banner",Times New Roman;
+    font-size:20px;
+    background:#FFFFFF;
+    border:0;
+	margin:auto;
+	padding-top:8px;
+}
+#conteudo_gerenc_impressao{
+	background:#FFFFFF;
+	box-shadow:4px 4px 6px #c0c0c0;
+	padding:15px 0 15px 0;
+}
+#sidebar_gerenc_impressao{
+	width:210px;
+	height:566px;   
+    float:right;
+    margin:45px 0 0 0;
+}
+/*************** FIM GERENCIAMENTO DE IMPRESSÃO*************************/
+
+.container_assistec{
+    width:1020px;
+    margin:0 0 0 0;
+    background-color: #F5F6CE;
+    padding-bottom:20px;
+	float:left;
+}
+.cab-assistec{
+    width:300px;
+    height:36px;
+    text-align:center; 
+    margin-top:10px;
+    font-weight:600;
+	color:#020641;
+    font-family: "Sitka Banner",Times New Roman;
+    font-size:20px;
+    background:#FFFFFF;
+    border:0;
+	margin:auto;
+	padding-top:8px;
+}
+#conteudo_assistec{
+	background:#FFFFFF;
+	box-shadow:4px 4px 6px #c0c0c0;
+	padding:15px 0 15px 0;
+}
+#conteudo_assistec img{
+	margin:15px 0 20px 210px;
+}
+#conteudo_assistec p{
+	margin:10px 120px 10px 120px;
+	text-indent:50px;
+	text-align:justify;
+	font-family:"Segoe UI", Lucida Sans;
+	color:#171B66;
+	font-size:14px;
+}
+#sidebar_assistec{
+	width:210px;
+	height:566px;   
+    float:right;
+    margin:40px 0 0 0;
+}
+/*************** FIM NOTÍCIAS*************************/
+
+/**********____________________*****RODAPE******_____________________________*******/
+#barra-rodape {
+    width: auto;
+    bottom: 114px;
+    background: url(../img/barra_sup.png);
+    height: 7px;
+    clear:both;
+}
+#rodape {
+    width: auto;
+    height: 250px;
+    position: relative;
+    bottom:0;
+    border:0;
+    margin:0;
+    /*background:#700505;*/
+    clear:both;
+	 background:#545454;
+}
+.index {
+    margin-top: 0;
+    padding-top: 30px;
+    text-align: left;
+    font-size: 14px;
+    position: static;
+    font-family: Times New Roman;
+    padding-left: 220px;
+    margin-right: 220px;
+}
+.index ul {
+    display: inline-block;
+    color: red;
+}
+.index a {
+    text-decoration: none;
+    color: #FFFFFF;
+	margin-right: 40px;
+}
+
+.index p {
+    text-align: right;
+    color: #FFFFFF;
+    padding-right: 20px;
+    padding-top: 0;
+}
+
+.icon-redes {
+    margin-left: 990px;
+    margin-right: 15px;
+    margin-top: -85px;
+    height: 48px;
+    position: static;
+}
+.social {
+    margin-bottom: 60px;
+    margin-left: 50px;
+    margin-top: 45px;
+    position: static;
+}
+.social a {
+    /* tamanho da imagem */
+    height: 30px;
+    width: 30px;
+    /* image replacement */
+    display: block;
+    text-indent: -9999px;
+    margin-right: 2px;
+}
+.social a[href*="facebook.com"] {
+    background-image: url(../img/facebook.png);
+}
+.social a[href*="twitter.com"] {
+    background-image: url(../img/twitter.png);
+}
+.social a[href*="plus.google.com"] {
+    background-image: url(../img/googleplus.png);
+}
+.social a[href*="br.linkedin.com"] {
+    background-image: url(../img/linkedin-icon.png);
+}
+
+.social li {
+    display: inline-block;
+}
+.dadosrodape{
+    display:inline-block;
+}
+#dominio {
+    text-align:center;
+    margin-left: 0;
+    margin-right:248px;
+    margin-top:36px;
+    position: static;
+    color: #FFFFFF;
+    font-family: Bookman Old Style;
+    font-size: 16px;
+}
+
+#dominio p {
+    color: #F7D358;
+    font-family: Georgia;
+    font-size: 30px;
+}
+
+#dreservados {
+    color: #ffffff;
+    height: 17px;
+    margin-top:30px;
+    margin-right: 18px;
+    margin-left:1110px;
+    font-size: 14px;
+    font-family: Bookman Old Style;
+}
+#endcompleto {
+    width:270px;
+    text-align: left;
+    margin-top: 98px;
+    margin-right:0;
+    color: #ffffff;
+    margin-left: 30px;
+    font-size: 15px;
+    position: static;
+    font-family: Bookman Old Style;
+    float:left;
+    padding-top:0;
+}
+#endcompleto p {
+    text-align:center;
+}
+/**********________________________________________***** Fim Estilo Rodape******____________________________________________________________*******/
+
+
+
+
+
+

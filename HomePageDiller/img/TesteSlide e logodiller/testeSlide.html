@@ -1,0 +1,57 @@
+<!DOCTYPE HTML> 
+<html lang=”pt-br”> 
+<head> 
+<meta charset=”UTF-8”> 
+<link href="slider.css" rel="stylesheet" type="text/css" /> 
+<title>Slides</title> 
+
+</head> 
+
+<body> 
+<figure id="slide"> 
+<img src="banner1.jpg" width="400px"  height="380px" alt="Banner 1" onclick="slide_stop()"/> 
+<img src="banner2.jpg" width="400px"  height="380px" alt="Banner  02" onclick="slide_stop()"/> 
+<img src="banner3.jpg" width="400px"  height="380px" alt="Banner 03" onclick="slide_stop()"/> 
+</figure> 
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script> 
+<script type="text/javascript"> 
+var flip_flop=true; 
+var intervalo; 
+function slide(){ 
+if($(".ativo").next().size()){ 
+var texto = $(".ativo").fadeOut(5000).removeClass("ativo").next().fadeIn(5000).addClass("ativo").attr("alt"); 
+$("#slide p").remove(); 
+$("#slide").prepend("<p>"+texto+"</p>"); 
+$("#slide p").hide().html(texto).delay(5000).fadeIn(5000); 
+}else { 
+$(".ativo").fadeOut(5000).removeClass("ativo"); 
+var texto = $("#slide img:eq(0)").fadeIn().addClass("ativo").attr("alt"); 
+$("#slide p").remove(); 
+$("#slide").prepend("<p>"+texto+"</p>"); 
+$("#slide p").hide().html(texto).delay(5000).fadeIn(); 
+} 
+} 
+
+function slide_stop(){ 
+if(flip_flop){ 
+clearInterval(intervalo); 
+flip_flop=false; 
+}else{ 
+intervalo=setInterval(slide,3000); 
+flip_flop=true; 
+} 
+
+} 
+
+$(document).ready(function(){ 
+var texto = $("#slide img:eq(0)").addClass("ativo").show().attr("alt"); 
+$("#slide").prepend("<p>"+texto+"</p>"); 
+$("#slide p").hide().html(texto).delay(5000).fadeIn();	
+intervalo=setInterval(slide,3000); 
+}) 
+</script> 
+</body> 
+
+</html>
+
